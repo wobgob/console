@@ -1,0 +1,28 @@
+{
+  "name": "acore-console",
+  "version": "0.1.0",
+  "description": "Access the AzerothCore console locally to perform scheduled tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wobgob/acore-console.git"
+  },
+  "author": "",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/wobgob/acore-console/issues"
+  },
+  "homepage": "https://github.com/wobgob/acore-console#readme",
+  "type": "module",
+  "dependencies": {
+    "big-integer": "^1.6.49",
+    "bigint-buffer": "^1.1.5",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "telnet-client": "^1.4.9",
+    "xml2js": "^0.4.23"
+  }
+}
